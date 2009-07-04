@@ -61,3 +61,6 @@ deb-src http://ppa.launchpad.net/mercurial-ppa/stable-snapshots/ubuntu jaunty ma
 
 deb http://ppa.launchpad.net/ubuntu-mozilla-daily/ppa/ubuntu jaunty main 
 deb-src http://ppa.launchpad.net/ubuntu-mozilla-daily/ppa/ubuntu jaunty main 
+
+# to approve a gpg key:
+# sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com HASH
